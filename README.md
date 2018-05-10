@@ -1,2 +1,2 @@
 # geodemo
-Demonstration of various geospatial technologies
+Demonstration of various geospatial technologies - coming soon!

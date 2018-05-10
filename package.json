@@ -1,0 +1,26 @@
+{
+  "name": "geodemo",
+  "version": "0.0.1",
+  "description": "Demonstration of various geospatial technologies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claytongulick/geodemo.git"
+  },
+  "keywords": [
+    "geospatial",
+    "clustering",
+    "quickhull",
+    "spidering",
+    "maps"
+  ],
+  "author": "Clayton Gulick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claytongulick/geodemo/issues"
+  },
+  "homepage": "https://github.com/claytongulick/geodemo#readme"
+}

@@ -5,8 +5,7 @@
 
  Base controllers for non application specific routes, basic server housekeeping functions like isAlive, etc...
 
- @author Clay Gulick
- @email clay@ratiosoftware.com
+ @author Clayton Gulick <claytongulick@gmail.com>
 **/
 
 class Core {

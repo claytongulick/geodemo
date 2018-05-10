@@ -5,8 +5,7 @@
 
  Core server routes with generic functionality that's not application specific, such as isalive and whoami
 
- @author Clay Gulick
- @email clay@ratiosoftware.com
+ @author Clayton Gulick <claytongulick@gmail.com>
 
  **/
 

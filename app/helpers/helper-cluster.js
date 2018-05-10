@@ -5,8 +5,7 @@
  *
  * Utility for starting and managing express cluster
  *
- * @author Clay Gulick
- * @email claytongulick@gmail.com
+ * @author Clayton Gulick <claytongulick@gmail.com>
  */
 let cluster = require('cluster'),
     http = require('http'),
@@ -41,10 +40,6 @@ function startCluster() {
 function startWebServer() {
     winston.info("Starting web server worker with process id: " + process.pid);
 
-    //create the connection pool for future use. It's a singleton and will be returned on any require() call
-    winston.info("Creating database connection pool...")
-    let pool = require('./helper-pg');
-
     //set up routes and middleware
     winston.info("Configuring application...")
     let app = require('./helper-express');
@@ -74,8 +69,8 @@ function startWebServer() {
     let http_server = http.createServer(app).listen(config.port,
         () => {
             winston.info(`HTTP server listening on port ${config.port}`);
-            if(config.ssl.enable) 
-                return launchSSLServer();
+            //if(config.ssl.enable) 
+            //    return launchSSLServer();
             downgradePermissions();
         } 
     );

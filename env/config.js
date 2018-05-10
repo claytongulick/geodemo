@@ -6,8 +6,7 @@
  This is the main configuration file. It provides a series of default configuration options that
  can be overridden based on the environment.
 
- @author Clay Gulick
- @email clay@ratiosoftware.com
+ @author Clayton Gulick <claytongulick@gmail.com>
 
 **/
 

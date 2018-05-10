@@ -3,8 +3,7 @@
 
  Starting point for launching API server.
 
- @author Clay Gulick
- @email claytongulick@gmail.com
+ @author Clayton Gulick <claytongulick@gmail.com>
 **/
 
 let winston = require('winston');

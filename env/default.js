@@ -7,8 +7,7 @@
 
  Be aware that overriding occurs via Object.assign, so objects will be copied in total, not deep property merge
 
- @author Clay Gulick
- @email claytongulick@gmail.com
+ @author Clayton Gulick <claytongulick@gmail.com>
 **/
 const fs = require('fs');
 let config = {

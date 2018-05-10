@@ -5,8 +5,7 @@
  *
  * Utility to configure and launch express server
  *
- * @author Clay Gulick
- * @email clay@ratiosoftware.com
+ * @author Clayton Gulick <claytongulick@gmail.com>
  *
  */
 
@@ -24,8 +23,7 @@ var express = require('express'),
     glob = require('glob'),
     winston = require('winston'),
     compress = require('compression'),
-    path = require('path'),
-    ;
+    path = require('path');
 
 let app = null;
 
